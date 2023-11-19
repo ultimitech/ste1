@@ -1,4 +1,4 @@
 #!/bin/bash
-adduser uts
+useradd -m -p $PASSWD uts
 adduser uts sudo
 
